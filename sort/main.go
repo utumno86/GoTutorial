@@ -22,4 +22,8 @@ func main() {
 	fmt.Println(s)
 	sort.StringSlice(s).Sort()
 	fmt.Println(s)
+
+	fmt.Println("************")
+	sort.Sort(sort.Reverse(sort.StringSlice(s)))
+	fmt.Println(s)
 }
